@@ -1,5 +1,5 @@
 'use client'
-import { DashboardLHS } from "@/components/LHS/DashboardLHS/page";
+import { DashboardLHS } from "@/components/LHS/DashboardLHS";
 import { DashBoardRHS } from "@/components/RHS/DashboardRHS";
 //components
 import {NavPageWrapper} from "@/components/layouts/NavPageWrapper";

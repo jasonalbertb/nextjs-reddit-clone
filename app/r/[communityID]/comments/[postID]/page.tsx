@@ -2,7 +2,7 @@
 
 import { PostCommentLHS } from '@/components/LHS/PostCommentLHS'
 import { CommunityRHS } from '@/components/RHS/CommunityRHS'
-import { ProfileRHS } from '@/components/RHS/ProfileRHS/page'
+import { ProfileRHS } from '@/components/RHS/ProfileRHS'
 import { LoadNotFound } from '@/components/layouts/LoadNotFound'
 import { NavPageWrapper } from '@/components/layouts/NavPageWrapper'
 import { ReactLoader } from '@/components/loaders/ReactLoader'

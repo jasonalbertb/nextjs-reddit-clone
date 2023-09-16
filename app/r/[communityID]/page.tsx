@@ -8,7 +8,6 @@ import {NavPageWrapper} from "@/components/layouts/NavPageWrapper";
 import ReactLoader from '@/app/loading';
 import { getCommunityData } from '@/utils/firebase/functions';
 import { Community } from '@/utils/firebase/types';
-import { FirebaseError } from 'firebase/app';
 import { handleError } from '@/utils/helpers/errors';
 import { LoadNotFound } from '@/components/layouts/LoadNotFound';
 import { CommunityLHS } from '@/components/LHS/CommunityLHS';

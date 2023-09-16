@@ -1,12 +1,11 @@
 'use client'
 
 import { ProfileLHS } from '@/components/LHS/ProfileLHS'
-import { ProfileRHS } from '@/components/RHS/ProfileRHS/page'
+import { ProfileRHS } from '@/components/RHS/ProfileRHS'
 import { LoadNotFound } from '@/components/layouts/LoadNotFound'
 import { NavPageWrapper } from '@/components/layouts/NavPageWrapper'
 import { ReactLoader } from '@/components/loaders/ReactLoader'
 import { getUserDataByUsername } from '@/utils/firebase/functions'
-import { User } from '@/utils/firebase/types'
 import { handleError } from '@/utils/helpers/errors'
 import { useParams } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
