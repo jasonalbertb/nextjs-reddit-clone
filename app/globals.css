@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.filterInput:not(:placeholder-shown) {
+    @apply bg-white
+}
+
+
+.floatingInput input:focus-within ~ label,
+.floatingInput input:not(:placeholder-shown) ~ label{
+    @apply transform scale-75 translate-y-[-20px] 
+}
+
