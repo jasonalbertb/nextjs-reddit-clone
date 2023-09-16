@@ -3,7 +3,6 @@ import {userSlice} from "./userSlice";
 import {createCommunitySlice} from "./createCommunitySlice";
 import {loginSignupSlice} from "./loginSignupSlice";
 import {loadingSlice} from "./loadingSlice";
-import {errorSlice} from "./errorSlice";
 
 export const store = configureStore({
     reducer : {
