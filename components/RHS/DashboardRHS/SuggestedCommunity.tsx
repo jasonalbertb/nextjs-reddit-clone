@@ -72,7 +72,7 @@ export const SuggestedCommunity = ({dp, name, id:communityID , handleRemoveSugge
         return
     }
     return (
-        <li className={`flex justify-between ${isFadingOut && 'animate-fadeOut'}`}>
+        <li className={`flex justify-between ${isFadingOut && 'animate-fadeOut'} p-2 hover:bg-gray-100`}>
             <div className='flex justify-center items-center'>
                 <img src={dp || PICS.defaultCommPic} alt='com-pic' 
                     className='w-5 -h-5 rounded-full object-cover mr-2' 
